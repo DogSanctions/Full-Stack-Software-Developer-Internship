@@ -11,7 +11,8 @@ It will allow the acting company to easily upload content. It will allow subscri
 Some Project's I was Responsible for and the Requirements:
 1. SignIn (Just had to pull origin/master, create a branch, and check out a story, then the find SignIn sheet, write our name down and commit/push to Azure)
 
-2. Create Model For Productions (Properties should include Title, Description, StartDate (the day on the calendar when the production begins), EndDate (the final day of the production run), RunTime, Status (this property will be an enum with three items. Past, Current, and Upcoming), and a primary key.)
+2. Create Model For Productions (Properties should include Title, Description, StartDate (the day on the calendar when the production begins), EndDate (the final day of the production run), RunTime, Status (this property will be an enum with three items. Past, Current, and Upcoming), and a primary key.) ![ProductionModel(CMS_B1)](https://user-images.githubusercontent.com/62126116/97636171-eedbdb80-19f5-11eb-90cc-9cf03481c0a7.PNG)
+
 
 3.Replace IsCurrentProperty (Create a method in the Production model called IsCurrentlyShowing that returns a bool.  The method should return true if the current date is between the opening and closing dates of the Production and should return false otherwise.  Once the method is created, find all instances of IsCurrent and replace them with the method calls to IsCurrentlyShowing.  In the startup file, you can remove the IsCurrent properties from the productions.)
 
