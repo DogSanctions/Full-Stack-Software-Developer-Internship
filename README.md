@@ -1,8 +1,9 @@
 # LiveProjectC-Sharp
 
-This file contains Screenshots of every section of code I worked on during the C# Live Project that i worked organized by The Tech Academy.
+This file contains Screenshots of every section of code I worked on during the C# Live Project that I worked organized by The Tech Academy.
 
 About The Program:
+https://hollywoodtheatre.org/
 Software designed for a theater company to manage its website content without needing any technical knowledge. 
 It will have multiple areas to manage admin needs, subscriber needs, and general public needs. 
 The site will include information on the current season, past productions, the current cast members.
